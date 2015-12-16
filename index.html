@@ -47,6 +47,12 @@
 
 <p><img src="https://cloud.githubusercontent.com/assets/8342133/10628863/39364500-77e7-11e5-873a-d436f8a2a35c.jpg" alt="dsc09941"></p>
 
+<blockquote>
+<p>"Talent wins games, but teamwork and intelligence wins championships." by Michael Jordan</p>
+</blockquote>
+
+<p>Without the help from these <a href="https://github.com/ramitsurana/awesome-openstack/graphs/contributors">amazing contributors</a>, building this awesome-repo would never has been possible.Thank You very much guys !!</p>
+
 <h1>
 <a id="what-is-openstack-" class="anchor" href="#what-is-openstack-" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is Openstack ?</h1>
 
@@ -69,6 +75,7 @@
 
 <ul>
 <li><a href="#keystone">Keystone</a></li>
+<li><a href="#storage">Storage</a></li>
 <li><a href="#cinder">Cinder</a></li>
 <li><a href="#swift">Swift</a></li>
 <li><a href="#nova">Nova</a></li>
@@ -83,9 +90,23 @@
 </ul>
 </li>
 <li><a href="#interesting-github-repos">Interesting Github-repos</a></li>
-<li><a href="#books">Books</a></li>
+<li>
+<a href="#books">Books</a>
+
+<ul>
+<li><a href="#oreilly-publication">OReilly Publication</a></li>
+<li><a href="#packt-publication">Packt Publication</a></li>
+</ul>
+</li>
 <li><a href="#slide-presentations">Slide Presentations</a></li>
+<li>
+<a href="#videos">Videos</a>
+
+<ul>
+<li><a href="#main-account">Main Account</a></li>
 <li><a href="#useful-videos">Useful videos</a></li>
+</ul>
+</li>
 <li><a href="#amazing-people">Amazing People</a></li>
 <li><a href="#contributing">Contributing</a></li>
 <li><a href="#license">License</a></li>
@@ -100,16 +121,28 @@
 <h2>
 <a id="keystone" class="anchor" href="#keystone" aria-hidden="true"><span class="octicon octicon-link"></span></a>Keystone:</h2>
 
-<p>Official Documentation can be found <a href="http://docs.openstack.org/developer/keystone/">here</a>
-*<a href="https://www.mirantis.com/blog/understanding-openstack-authentication-keystone-pki/">Understanding Openstack Authentication: Keystone PKI </a></p>
+<p>Official Documentation can be found <a href="http://docs.openstack.org/developer/keystone/">here</a></p>
+
+<ul>
+<li><a href="https://www.mirantis.com/blog/understanding-openstack-authentication-keystone-pki/">Understanding Openstack Authentication: Keystone PKI</a></li>
+</ul>
 
 <h2>
-<a id="cinder" class="anchor" href="#cinder" aria-hidden="true"><span class="octicon octicon-link"></span></a>Cinder:</h2>
+<a id="storage" class="anchor" href="#storage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Storage:</h2>
+
+<h3>
+<a id="cinder" class="anchor" href="#cinder" aria-hidden="true"><span class="octicon octicon-link"></span></a>Cinder:</h3>
 
 <p>Official Documentation can be found <a href="http://docs.openstack.org/developer/cinder/">here</a></p>
 
-<h2>
-<a id="swift" class="anchor" href="#swift" aria-hidden="true"><span class="octicon octicon-link"></span></a>Swift:</h2>
+<ul>
+<li><a href="http://www.rackspace.com/knowledge_center/article/configuring-openstack-block-storage">Configuring OpenStack Block Storage</a></li>
+<li><a href="http://blog.flux7.com/blogs/openstack/tutorial-what-is-cinder-and-how-to-install-and-use-it">What is Cinder and how to install and use it?</a></li>
+<li><a href="http://www.computerweekly.com/feature/OpenStack-storage-Cinder-and-Swift-explained">OpenStack storage: Cinder and Swift explained</a></li>
+</ul>
+
+<h3>
+<a id="swift" class="anchor" href="#swift" aria-hidden="true"><span class="octicon octicon-link"></span></a>Swift:</h3>
 
 <p>Official Documentation can be found <a href="http://docs.openstack.org/developer/swift/">here</a>.</p>
 
@@ -118,10 +151,21 @@
 
 <p>Official Documentation can be found <a href="http://docs.openstack.org/developer/nova/">here</a></p>
 
+<ul>
+<li><a href="https://www.datadoghq.com/blog/openstack-monitoring-nova/">Monitoring OpenStack Nova</a></li>
+</ul>
+
 <h2>
 <a id="magnum" class="anchor" href="#magnum" aria-hidden="true"><span class="octicon octicon-link"></span></a>Magnum:</h2>
 
 <p>Official Documentation can be found <a href="http://docs.openstack.org/developer/magnum/">here</a></p>
+
+<ul>
+<li><a href="http://adrianotto.com/2015/01/announcing-magnum-caas-for-openstack/">Announcing Magnum – CaaS for OpenStack</a></li>
+<li><a href="http://thenewstack.io/magnum-is-the-name-docker-container-management-is-the-game/">Magnum is the Name, Docker Container Management is the Game</a></li>
+<li><a href="http://blog.rackspace.com/magnum-containers-as-a-service-for-openstack-clouds/">Magnum: Containers-as-a-Service for OpenStack Clouds</a></li>
+<li><a href="https://kismatic.com/community/magnum-containers-service-for-openstack/">KUBERNETES AND MAGNUM: CONTAINERS-AS-A-SERVICE IN OPENSTACK</a></li>
+</ul>
 
 <h2>
 <a id="ironic" class="anchor" href="#ironic" aria-hidden="true"><span class="octicon octicon-link"></span></a>Ironic:</h2>
@@ -137,6 +181,18 @@
 <a id="horizon" class="anchor" href="#horizon" aria-hidden="true"><span class="octicon octicon-link"></span></a>Horizon:</h2>
 
 <p>Official Documentation can be found <a href="http://docs.openstack.org/developer/horizon/">here</a></p>
+
+<ul>
+<li>
+<a href="http://keithtenzer.com/2015/02/16/building-custom-dashboards-in-openstack-horizon/">Building Custom Dashboards in OpenStack Horizon</a> by <a href="https://twitter.com/keithtenzer">Keith Tenzer</a>
+</li>
+<li>
+<a href="https://raymii.org/s/tutorials/Openstack-Set-Up-Horizon-Dashboard-on-Ubuntu.html">Openstack Horizon installation with SSL on Ubuntu</a> by <a href="https://raymii.org/s/static/About.html">Remy van Elst</a>
+</li>
+<li>
+<a href="https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux_OpenStack_Platform/2/html/Getting_Started_Guide/chap-Deploying_The_Dashboard.html">Deploying the Dashboard (Horizon)</a> by <a href="https://www.redhat.com">Red Hat</a>
+</li>
+</ul>
 
 <h2>
 <a id="glance" class="anchor" href="#glance" aria-hidden="true"><span class="octicon octicon-link"></span></a>Glance:</h2>
@@ -168,19 +224,129 @@
 <h2>
 <a id="books" class="anchor" href="#books" aria-hidden="true"><span class="octicon octicon-link"></span></a>Books:</h2>
 
-<p>Coming Soon ...</p>
+<h3>
+<a id="oreilly-publication" class="anchor" href="#oreilly-publication" aria-hidden="true"><span class="octicon octicon-link"></span></a>OReilly Publication:</h3>
+
+<ul>
+<li>
+<a href="http://shop.oreilly.com/product/0636920021674.do">Deploying OpenStack</a> by <a href="https://twitter.com/ken_pepple">Ken Pepple</a>
+</li>
+<li>
+<a href="http://shop.oreilly.com/product/0636920033288.do">OpenStack Swift</a> by <a href="https://twitter.com/joearnold">Joe Arnold</a>
+</li>
+<li>
+<a href="http://shop.oreilly.com/product/0636920032625.do">OpenStack Operations Guide</a> by <a href="http://shop.oreilly.com/product/0636920032625.do#tab_03_2">Tom Fifield, Diane Fleming, Anne Gentle, Lorin Hochstein, Jonathan Proulx, Everett Toews, Joe Topjian</a>
+</li>
+</ul>
+
+<h3>
+<a id="packt-publication" class="anchor" href="#packt-publication" aria-hidden="true"><span class="octicon octicon-link"></span></a>Packt Publication:</h3>
+
+<ul>
+<li>
+<a href="https://www.packtpub.com/virtualization-and-cloud/openstack-cloud-computing-cookbook">OpenStack Cloud Computing Cookbook</a> by <a href="https://twitter.com/itarchitectkev">Kevin Jackson</a>
+</li>
+<li>
+<a href="https://www.packtpub.com/virtualization-and-cloud/learning-openstack-networking-neutron">Learning OpenStack Networking (Neutron)</a> by <a href="https://twitter.com/jimmdenton">James Denton</a>
+</li>
+<li>
+<a href="https://www.packtpub.com/virtualization-and-cloud/production-ready-openstack-recipes-successful-environments">Production Ready OpenStack - Recipes for Successful Environments</a> by <a href="https://twitter.com/arthurberezin">Arthur Berezin</a>
+</li>
+<li>
+<a href="https://www.packtpub.com/virtualization-and-cloud/mastering-openstack">Mastering OpenStack</a> by <a href="">Omar Khedher</a>
+</li>
+<li>
+<a href="https://www.packtpub.com/virtualization-and-cloud/implementing-cloud-storage-openstack-swift">Implementing Cloud Storage with OpenStack Swift</a> by <a href="">Amar Kapadia, Sreedhar Varma, Kris Rajana</a>
+</li>
+<li>
+<a href="https://www.packtpub.com/virtualization-and-cloud/learning-openstack">Learning OpenStack</a> by <a href="">Alok Shrivastwa, Sunil Sarat</a>
+</li>
+<li>
+<a href="https://www.packtpub.com/virtualization-and-cloud/openstack-administration-ansible">OpenStack Administration with Ansible</a> by <a href="https://twitter.com/djstayflypro">Walter Bentley</a>
+</li>
+<li>
+<a href="https://www.packtpub.com/virtualization-and-cloud/openstack-orchestration">OpenStack Orchestration</a> by <a href="">Adnan Ahmed Siddiqui</a>
+</li>
+<li>
+<a href="https://www.packtpub.com/virtualization-and-cloud/openstack-networking-cookbook">OpenStack Networking Cookbook</a> by <a href="https://twitter.com/sriramhere">Sriram Subramanian</a><a href="">Chandan Dutta Chowdhury</a>
+</li>
+</ul>
 
 <h2>
 <a id="slide-presentations" class="anchor" href="#slide-presentations" aria-hidden="true"><span class="octicon octicon-link"></span></a>Slide Presentations:</h2>
 
+<ul>
+<li>
+<a href="http://www.slideshare.net/ramitsurana/openstackswift">Exploring Openstack Swift(Object Storage) and Swiftstack</a> by <a href="https://twitter.com/ramitsurana">Ramit Surana</a>
+</li>
+<li>
+<a href="http://www.slideshare.net/sgordon2/whats-new-in-openstack-liberty">What's new in OpenStack Liberty</a> by <a href="https://twitter.com/xsgordon">Stephen Gordon</a>
+</li>
+<li>
+<a href="http://www.slideshare.net/mirantis/openstack-architecture-43160012">OpenStack Architecture</a> by <a href="">Polina Petriuk</a>
+</li>
+</ul>
+
 <h2>
-<a id="useful-videos" class="anchor" href="#useful-videos" aria-hidden="true"><span class="octicon octicon-link"></span></a>Useful Videos:</h2>
+<a id="videos" class="anchor" href="#videos" aria-hidden="true"><span class="octicon octicon-link"></span></a>Videos:</h2>
+
+<h3>
+<a id="main-account" class="anchor" href="#main-account" aria-hidden="true"><span class="octicon octicon-link"></span></a>Main Account:</h3>
+
+<ul>
+<li><a href="https://www.youtube.com/user/OpenStackFoundation">Openstack Foundation</a></li>
+<li><a href="https://www.youtube.com/user/MirantisUS">Mirantis</a></li>
+<li><a href="https://www.youtube.com/user/hpcloud">Hp Helion</a></li>
+<li><a href="https://www.youtube.com/user/RackspaceHosting">Rackspace</a></li>
+<li><a href="https://www.youtube.com/user/RedHatCloud">Red Hat</a></li>
+<li><a href="https://www.youtube.com/user/Cisco">Cisco</a></li>
+</ul>
+
+<h3>
+<a id="useful-videos" class="anchor" href="#useful-videos" aria-hidden="true"><span class="octicon octicon-link"></span></a>Useful Videos:</h3>
+
+<ul>
+<li>
+<a href="https://www.youtube.com/watch?v=Qz5gyDenqTI">OpenStack 101 - What Is OpenStack?</a>Time:6:35</li>
+<li>
+<a href="https://www.youtube.com/watch?v=c1GFoY4btpo">OpenStack Basics - Overview</a>Time:7:37</li>
+<li>
+<a href="https://www.youtube.com/watch?v=bCsw2kkIWyw">Introduction to OpenStack</a>Time:32:37</li>
+<li>
+<a href="https://www.youtube.com/watch?v=IGGgVuZe7UA">Introduction to Openstack Neutron</a>Time:33:21</li>
+</ul>
 
 <h2>
 <a id="amazing-people" class="anchor" href="#amazing-people" aria-hidden="true"><span class="octicon octicon-link"></span></a>Amazing People:</h2>
 
+<h3>
+<a id="foundation-staff" class="anchor" href="#foundation-staff" aria-hidden="true"><span class="octicon octicon-link"></span></a>Foundation Staff:</h3>
+
 <ul>
-<li><a href="https://www.twitter.com/sparkycollier">Mark Collier</a></li>
+<li>
+<a href="https://twitter.com/sparkycollier">Mark Collier</a>,Executive Director</li>
+<li>
+<a href="https://twitter.com/jbryce">Jonathan Bryce</a>,Chief Operating Officer</li>
+<li>
+<a href="https://twitter.com/laurensell">Lauren Sell</a>,Vice President, Marketing and Community Services</li>
+<li>
+<a href="https://twitter.com/heidiscoop">Heidi Bretz</a>,Director of Business Development</li>
+<li>
+<a href="https://twitter.com/tcarrez">Thierry Carrez</a>,Director of Engineering</li>
+<li>
+<a href="https://twitter.com/toddmorey">Todd Morey</a>,Creative Director</li>
+<li>
+<a href="https://twitter.com/iameswilson">Wes Wilson</a>,Lead Designer</li>
+<li>
+<a href="https://twitter.com/amprice88">Allison Price</a>,Marketing Coordinator</li>
+<li>
+<a href="https://twitter.com/Massey">Claire Massey</a>,Marketing Manager</li>
+<li>
+<a href="https://twitter.com/sharimarii">Shari Mahrdt</a>,Marketing Associate</li>
+<li>
+<a href="https://twitter.com/wendallkaters">Kendall Waters</a>,Marketing Associate</li>
+<li>
+<a href="https://twitter.com/TomFifield">Tom Fifield</a>,Supporting Member</li>
 </ul>
 
 <h2>
@@ -195,12 +361,9 @@
 <h2>
 <a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License:</h2>
 
-<p>The work done has been licensed under Apache License 2.0.The license file can be found
-  <a href="https://github.com/ramitsurana/awesome-openstack/blob/master/LICENSE">here</a>.
-  You can find out more about license,at</p>
+<p><a href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png"></a><br>awesome-openstack by <a href="https://www.github.com/ramitsurana">Ramit Surana</a> is licensed under a <a href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</p>
 
-<pre><code>http://www.apache.org/licenses/LICENSE-2.0
-</code></pre>
+<p>See the <a href="https://github.com/ramitsurana/awesome-openstack/blob/master/LICENSE">License</a>for more info.</p>
       </section>
       <footer>
         <p>Project maintained by <a href="https://github.com/ramitsurana">ramitsurana</a></p>
